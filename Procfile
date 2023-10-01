@@ -1,1 +1,1 @@
-web: streamlit run Transcriber.py
+streamlit run Transcriber.py
