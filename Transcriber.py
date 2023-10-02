@@ -6,7 +6,7 @@ st.title("Audio Transcriber")
 st.write("By AI খুড়ো")
 def main():
     st.write("Upload an audio file to generate a text transcript.")
-    uploaded_file = st.file_uploader("Choose an audio file", type=["mp3", "wav", "aac"])
+    uploaded_file = st.file_uploader("Choose an audio file", type=["mp3", "wav", "aac", "m4a", "amr"])
 
     if uploaded_file:
         st.audio(uploaded_file, format="audio/mp3")
